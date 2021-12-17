@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kokoronashi (Videoke)</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial;
+          font-size: 17px;
+          background-image: url('pic.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+        
+        #myVideo {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 100%; 
+          height: 100%;
+        }
+        
+        .content {
+          position: absolute;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.5);
+          color: #f1f1f1;
+          width: 100%;
+          padding: 20px;
+        }
+
+        #marquee {
+            color: #f1f1f1;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        #myBtn {
+          width: 200px;
+          font-size: 18px;
+          padding: 10px;
+          border: none;
+          background: #000;
+          color: #fff;
+          cursor: pointer;
+        }
+        
+        #myBtn:hover {
+          background: #ddd;
+          color: black;
+        }
+
+        </style>
+</head>
+<body >
+    <video id="myVideo">
+        <source src="kokoronashi.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <center>
+        <marquee behavior="slide" direction="up" scrollamount="4" id="marquee" loop="1">
+          <body onload="document.getElementById('marquee').stop();"></body>
+            <br><br><br><br><br><br><br>
+            <p><i>Nee, moshimo</i></p>
+            <br><br><br><br><br><br><br><br>
+            <p>Subete nagesute raretara</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><u>Warette ikiru koto ga raku ni naru no?</u></p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p>Mata mune ga itaku narukara</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><b>Mou nani mo iwanaide yo</b></p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><i>Nee, moshimo</i></p>
+            <br><br>
+            <p>Subete wasure raretanara</p>
+            <br><br><br><br>
+            <p><u>Nakanaide ikiru koto mo raku ni naru no?</u></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p>Demo sonna koto dekinaikara</p><br><br><br><br><br><br>
+            <p>Mou nani mo misenaide yo</p>
+            <br><br><br><br><br><br><br><br><br><br>
+            <p>Kimi ni dore dake chikadzuite mo</p>
+            <br><br><br><br><br><br><br><br>
+            <p><u>Boku no shinzo wa hitotsudake</u></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><i>Hidoi yo hidoi yo</i></p>
+            <br><br><br>
+            <p>Mou isso boku no karada o</p>
+            <br><br><br>
+            <p><u>Kowashite hikisaite sukina you ni shite yo</u></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p>Sakende mo kaite mabuta wa harashite mo</p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><b>Mada kimi wa boku no koto dakishimete hanasanai</b></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><i>Mou ii yo</i></p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><i>Nee, moshimo</i></p>
+            <br><br>
+            <p>Boku no negai ga kanaunara</p>
+            <br><br><br><br>
+            <p><u>Kimi to onaji mono ga hoshinda</u></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><b>Demo boku ni wa sonzaishinai kara</b></p>
+            <br><br><br><br><br><br>
+            <p>Jaa semete koko ni kite yo</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p>Kimi ni dore dake aisa rete mo</p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><u>Boku no shinzou wa hitotsudake</u></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p>Yamete yo, yamete yo, yasashiku shinaide yo</p>
+            <br><br><br><br><br><br><br><br><br>
+            <p>Doushitemo boku ni wa rikai ga dekinai yo</p>
+            <br><br><br><br><br><br><br><br><br><br>
+            <p><i>Itaiyo itaiyo</i>, kotoba de oshiete yo</p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><b>Kon'na no shiranai yo hitori ni shinaide</b></p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><i>Hidoi yo hidoi yo</i>, mou isso boku no karada o</p>
+            <br><br><br><br><br><br><br><br>
+            <p><u>Kowashite hikisaite sukina you ni shite yo</u></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p>Sakende mo kaite mabuta o harashite mo</p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><b>Mada kimi wa boku no koto dakishimete hanasanai</b></p>
+            <br><br><br><br><br><br><br><br><br>
+            <p><i>Mou ii yo</i></p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><i>Nee, moshimo</i></p>
+            <br><br>
+            <p>Boku ni kokoro ga arunara</p>
+            <br><br><br><br>
+            <p><u>Dou yatte sore o mitsukereba ii no?</u></p>
+            <br><br><br><br><br><br><br><br><br><br>
+            <p>Sukoshi hohoende kimi ga iu</p>
+            <br><br><br><br><br><br><br><br>
+            <p><b>Sore wa ne, koko ni aru yo</b></p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2>Kokoronashi (Heartless)</h2>
+            <h3>By Majiko</h3>
+            <br><br><br><br><br><br><br><br><br>
+        </marquee>
+        <button id="myBtn" onclick="myFunction()">Play</button>
+    </center>
+    </div>
+      <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        var marquee = document.getElementById("marquee");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            marquee.start();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            marquee.stop();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+</body>
+</html>
